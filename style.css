@@ -14,21 +14,33 @@ header h1{
     color: #e53181;
 }
 
-section.container{
+main{
     margin: 0 10rem;
 }
 
-.container > h2{
-    margin-bottom: 4rem; 
+section.container{
+    margin: 0 5rem;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .col{
+    margin: 4rem 0.5rem;
     float: left;
-    width: calc(100% / 3 - 20px);
-    padding-bottom: 3rem;
+    width: calc(100% / 3 - 1rem);
+    background-color: black;
+    color: white;
 }
 
 .col img{
-    display: inline-block;
-    width: 25%;
+    float: left;
+    width: 30%;
+}
+
+h3{
+    font-size: 1rem;
 }
