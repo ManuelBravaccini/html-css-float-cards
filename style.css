@@ -39,8 +39,20 @@ section.container{
 .col img{
     float: left;
     width: 30%;
+    padding-right: 10px;
 }
 
-h3{
-    font-size: 1rem;
+h3.name{
+   font-size: 1.1rem;
+   padding: 10px 0;
+}
+
+p.employment{
+    padding: 10px 0;
+}
+
+p.email{
+    padding: 10px 0;
+    color: #57bbe6;
+    text-decoration: underline;
 }
