@@ -16,6 +16,9 @@ header h1{
 
 main{
     margin: 0 10rem;
+}
+
+h2#text_header{
     text-align: center;
 }
 
